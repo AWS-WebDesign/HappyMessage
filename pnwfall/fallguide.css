@@ -15,7 +15,47 @@ h1.b {
   font-size: 50px;
 }
 
+h1.c {
 
+  text-transform: lowercase;
+  color: orange;
+  font-family: "Courier New", sans-serif;
+  font-size: 70px;
+}
+
+h1.d {
+
+  text-transform: lowercase;
+  color: #EC8700;
+  font-family: "Courier New", sans-serif;
+  font-size: 70px;
+}
+
+h2.homeicon {
+  align: left;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h2.homeicon2 {
+  align: left;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h1.scenicdrive {
+  color:#FCC170;
+}
+
+h3.scenicdrive {
+  color:orange;
+}
+
+th {
+  color:#FCC170;
+}
 body.main {
   background: #900C3F;
   font-family: 'Courier New', sans-serif;
@@ -30,6 +70,17 @@ body.main {
   background-image: url(http://2.bp.blogspot.com/-6Q9dN9uyRz4/UkW2r1CEWhI/AAAAAAAAHCw/PdyEwO4LGsY/s1600/Hiking+028.jpg);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+body.scenicdrive {
+  background: #FCC170;
+  font-family: 'Courier', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  margin: 50px;
 }
 
 body.outside {
@@ -58,8 +109,55 @@ body.outside {
   padding-bottom: 500px;
 
 }
+
+.sdoutside {
+  background: #900C3F ;
+  font-family: 'Courier', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding-top: 100px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-bottom: 500px;
+
+}
+
   /* Style The Dropdown Button */
   /* The navbar container */
+
+  .header1 {
+    background: #FCDCB0  ;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .header2 {
+    background: #FCD097 ;
+    margin: 100px;
+}
+
+  .column1{
+    overflow: scroll;
+    float: left;
+    width: 50%;
+    height: 600px;
+  }
+
+  .column2{
+    overflow: scroll;
+    float: center;
+    width: 50%;
+    height: 600px;
+  }
+
+
+
+
   .topnav {
     overflow: hidden;
     background-color: #333;
