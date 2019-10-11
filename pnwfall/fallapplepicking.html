@@ -2,45 +2,67 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- This title element controls the text displayed in the tab on the web browser. --> 
     <title>Apple Picking</title>
+    <!-- This link element links this html file to my css file so that it can
+    use the styles from the css file. -->
     <link href="fallguide.css" type="text/css" rel="stylesheet">
   </head>
-
+  <!-- These are the classes for the css styles for the orange and burgundy background,
+  as well as font, padding, margin. The outside class for body is for the
+  outside orange background border, and the sdoutside class is for the inside burgundy color.-->
   <body class="outside">
-    <div class="inside">
+    <div class="sdoutside">
       <h2 class="homeicon">fall pnw guide</h2>
+      <!-- This is the navigation bar which links to other internal links. It contains
+      hover mechanisms, and other basic style features like courier font, font
+      color, and background block color.-->
+      <div class="topnav">
+        <a href="fallguide.html">home</a>
+        <a href="fallleavenworth.html">leavenworth</a>
+        <a href="fallscenicdrive.html">scenic drive</a>
+        <a href="fallapplepicking.html">apple picking</a>
+        <a href="fallcitations.html">sources</a>
 
+      </div>
+    <!-- This is the header for the apple picking tab. The header corresponds
+      with the lightorange class which makes it light orange.-->
+    <h1 class="lightorange">apple picking</h1>
+    <!-- This is the small blurb for what this page is about. The paragraph
+    corresponds with the style of the div which is sdoutside.-->
+    <p>the pacific northwest is known for our delicious apples, so why not go apple picking during the fall?
+    below are just two options for this very northwest activity.</p>
 
-    <div class="topnav">
-      <a href="./fallguide.html">home</a>
-      <a href="./fallleavenworth.html">leavenworth</a>
-      <a href="fallscenicdrive.html">scenic drive</a>
-      <a href="./fallapplepicking.html">apple picking</a>
-    </div>
-
-    <h1 class="scenicdrive">apple picking</h1>
-
+    <!-- This is the div for the 1st column dedicated to the Jones Creek Farms info.
+    The column style corresponds with the css style column1 that controls overflow, float, height, and width. -->
     <div class="column1">
-      <h3>Jones Creek Farms</h3>
+      <!-- This is the subheader for Jones Creek Farms which corresponds to the
+      scenic drive class which makes it orange.-->
+      <h3 class="scenicdrive">Jones Creek Farms</h3>
+      <!-- These are the images of the Jones Creek Farms-->
+      <img src="225_A069a_farm_sign.jpg" height="450" width="400"alt="Jones Creek Farms image 1">
+      <img src="1472599294253.jpg" height="300" width="400"alt="Jones Creek Farms image 2">
+      <!-- This is the small blurb for Jones Creek Farms is about. The paragraph
+      corresponds with the style of the div which is sdoutside.-->
       <p>Jones Creek Farms offers more than 50 varieties of u-pick apples from
         August to October. The 2019 apple picking season is scheduled to kick off
         Aug. 9-12 and is likely to go through the end of October</p>
-
-      <img src="225_A069a_farm_sign.jpg" height="400" width="300"alt="">
-      <img src="1472599294253.jpg" height="200" width="300"alt="">
-
     </div>
-
+    <!-- This is the div for the 2nd column dedicated to the Bellewood info.
+    The column style corresponds with the css style column2 that controls overflow, float, height, and width. -->
     <div class="column2">
-      <h3>Bellewood Acres</h3>
-      <img src="download-2.jpg" height="200" width="300"alt="">
-      <img src="fixedw_large_4x-1.jpg" height="400" width="300"alt="">
+      <!-- This is the subheader for Bellewood which corresponds to the
+      scenic drive class which makes it orange.-->
+      <h3 class="scenicdrive">Bellewood Acres</h3>
+      <!-- These are the images of the Bellewood Acres-->
+      <img src="download-2.jpg" height="250" width="400"alt="Bellewood Acres pic 1">
+      <img src="fixedw_large_4x-1.jpg" height="500" width="400"alt="Bellewood Acres pic 2">
+      <!-- This is the small blurb for Bellewood is about. The paragraph
+      corresponds with the style of the div which is sdoutside.-->
       <p>One of the largest apple orchards in Western Washington, Bellewood
         offers u-pick apples, cider press visits, a country cafe, and an apple
-         themed gift shop.They carry 21 apple varietyes as well as other produce.</p>
+         themed gift shop. They carry 21 apple varieties as well as other produce.</p>
     </div>
-
-
 
     </div>
   </body>
