@@ -1,0 +1,22 @@
+
+div {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  padding: 50px;
+  display: block;
+  background-color: #A3E4D7;
+  font-size: 50px;
+
+  animation-name: example2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes example2 {
+  0% {background-color: #A3E4B4; left: 0px; top: 0px;}
+  50% {background-color: #F3E978; left: 0px; top: 300px;}
+  100% {background-color: #7DCFEE; left: 1000px; top: 300px;}
+}
