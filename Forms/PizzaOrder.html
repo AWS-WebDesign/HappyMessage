@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Order</title>
+    <style>
+      #results {
+        display: none;
+        background-color: red;
+        padding: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        float; right;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <br><br><br><center><h1>Pizza Order 🍕</h1></center>
+    <br>
+<form>
+  <center>
+
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="username" value="">
+    <br><br>
+    <label for="numPizza">How many pizzas?</label>
+    <input min="1" max="10" type="number" name="num" id="numPizza" value="1">
+    <br>
+    <br>
+
+    <label for="location">Pick a location 📍</label>
+    <select id="location" name="option1">
+        <option name="option1"> 6th Ave </option>
+        <option name="option2"> Downtown </option>
+      </select>
+    </select>
+    <br><br><br>
+
+    <b>Toppings:</b>
+    <br><br>
+    <label for="toppings">Cheese 🧀</label>
+    <input id="toppings" type="checkbox" name="toppings1">
+    <label for="toppings">Pepperoni </label>
+    <input id="toppings" type="checkbox" name="toppings2">
+    <label for="toppings">Mushroom</label>
+    <input id="toppings" type="checkbox" name="toppings3">
+    <label for="toppings">Peppers</label>
+    <input id="toppings" type="checkbox" name="toppings4">
+    <label for="toppings">Sausage</label>
+    <input id="toppings" type="checkbox" name="toppings5"><br><br>
+    <input type="button" value="Submit" onclick="showInput();">
+      </center>
+</form>
+<br><br>
+    <div id="results">
+      <center><p>Your order, <span id="CustomerName"></span>, is
+        <span id="numP"></span> pizza(s)!
+        <br>
+
+      </p>
+    </center>
+    </div>
+
+    <script language="JavaScript">
+        function showInput() {
+            document.getElementById('CustomerName').innerHTML =
+                        document.getElementById("name").value;
+            document.getElementById('numP').innerHTML =
+                                    document.getElementById("numPizza").value;
+            var r = document.getElementById('results');
+            r.style.display = "block";
+            var price = document.getElementById("numPizza")*10;
+            document.getElementById("totPrice").innerHTML = price;
+        }
+        </script>
+
+
+  </body>
+</html>
