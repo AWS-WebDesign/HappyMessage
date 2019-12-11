@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="digitaldivide.css" type="text/css" rel="stylesheet">
+    <title>Take Action</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="">Home</a>
+      <a href="digitaldividestats.html">Statistics</a>
+      <a href="digitaldividetakeaction.html">Take Action</a>
+      <a href="digitaldividecitations.html">Citations</a>
+    </div>
+
+
+    <br><br><br>br
+    <h1>Take Action</h1><br>
+    <img src="71c6ea8d47a07b984512669ea9c348f7_L.jpg" alt="bridging the gap"height="350" width="800">
+    <br><br>
+    <h2>What can be done to bridge the divide?</h2>
+    <p>
+      <ul>
+        <li>makes access to internet and computers more affordable</li>
+        <li>making broadband access more affordable for low income homes</li>
+            <ul>
+              <li>Lifeline Support: Federal program that provides subsidized phone and Internet services</li>
+            </ul>
+        <li>provide public access through schools, libraries, other community locations</li>
+        <li>increase digital literacy skills</li>
+            <ul>
+              <li>deficiencies across age groups, socio-economic status, culture</li>
+            </ul>
+        <li>focusing particular attention on educators, and ensuring that they have the resources and digital literacy skills they need to teach the next generation</li>
+        <li>Promote innovations geared towards overcoming the digital divide</li>
+      </ul>
+    </p>
+    <br><br>
+<h2>What do you think?</h2>
+<form>
+  How do you think we should be combatting the digital divide? <br>
+  Type your response here!<br><br>
+  <input type="text" name="response" id="response" ><br><br>
+  <button type="button" name="Submit">Submit</button>
+</form>
+
+
+
+
+<div id="results">
+  <center><p>Your response, <span id="CustomerName"></span>, is
+    <span id="numP"></span> pizza(s)!
+    <br>
+
+  </p>
+</center>
+</div>
+
+<script language="JavaScript">
+    function showInput() {
+        document.getElementById('CustomerName').innerHTML =
+                    document.getElementById("name").value;
+        document.getElementById('numP').innerHTML =
+                                document.getElementById("numPizza").value;
+        var r = document.getElementById('results');
+        r.style.display = "block";
+        var price = document.getElementById("numPizza")*10;
+        document.getElementById("totPrice").innerHTML = price;
+    }
+    </script>
+
+  </body>
+</html>
