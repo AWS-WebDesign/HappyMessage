@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- The link element links to the BuzzfeedQuiz.css file which controls all
+    the styles-->
+    <link href="BuzzfeedQuiz.css" type="text/css" rel="stylesheet">
+    <!-- This title element controls the text displayed in the tab on the web browser. -->
+    <title> Build an ice cream sundae and I'll guess your age</title>
+  </head>
+
+
+
+  <!-- This body element corresponds to the body css style which makes a lightblue
+  background border.-->
+  <body>
+  <!-- This center element corresponds to the center css style which creates a
+  thin pink border.-->
+  <center>
+  <!-- This div class corresponds to the lightblue css style which makes the
+  background lightblue, as well as Courier font and padding.-->
+  <div class="lightblue">
+
+
+    <!-- The header 1 is a title for the page. The header 3 element is for the
+    first group of choices. They both correspond to respective css styles which
+    controls font, color, and size. The h3 style also creates a pink border
+    around the subheaders.-->
+    <h1>Build an ice cream sundae, and I'll guess your age </h1>
+    <h3>First, pick a cone or cup?</h3>
+
+    <!--the form element defines the form to collect user input. -->
+    <form>
+
+      <!-- this table element is used to align the text, and images/inputs. It
+      organizes the data so that it looks more neat.-->
+    <table>
+    </tr>
+    <tr>
+      <!--The first row of the table is for the descriptor of what each option is.
+      This is necessary because the image was in the content of the label where t
+      he text would usually be.-->
+      <td>Cup</td>
+      <td>Waffle Cone</td>
+      <td>Cake cone</td>
+      <td>Sugar Cone</td>
+    </tr>
+      <tr>
+
+      <td>
+        <!-- the second row of the table is for the input elements and their labels.
+        the input elements makes the radio options because of the radio attributes.
+        Their ids are so that they can be recognized by the JavaScript-->
+        <input id="cup" type="radio" name="container1" value="">
+        <!--The content for the labels are images of what the options are. The image sources are in the repository.-->
+        <label for="cup"><img src="cup.jpg" alt=""></label>
+      </td>
+      <td>
+        <input id="wafflecone" type="radio" name="container1" value="">
+        <label for="wafflecone"><img src="wafflecone.jpg" alt=""></label>
+      </td>
+      <td>
+        <input id="cakecone" type="radio" name="container1" value="">
+        <label for="cakecone"><img src="1913705.webp" alt=""></label>
+      </td>
+      <td>
+        <input id="sugarcone" type="radio" name="container1" value="">
+        <label for="sugarcone"><img src="1914580.webp" alt=""></label>
+      </td>
+
+    </table>
+
+    <!-- This h3 corresponds with the h3 css style. Makes the font white and have a
+    pink box around.-->
+    <h3>Now, an ice cream flavor (1st scoop)</h3>
+
+    <table>
+      <!--The first row of the table is for the descriptor of what each option is.
+      This is necessary because the image was in the content of the label where t
+      he text would usually be.-->
+      <tr>
+        <td>Vanilla</td>
+        <td>Chocolate</td>
+        <td>Mint Chocolate Chip</td>
+        <td>Cookie Dough</td>
+      </tr>
+      <!-- the second row of the table is for the input elements and their labels.
+      the input elements makes the radio options because of the radio attributes.
+      Their ids are so that they can be recognized by the JavaScript-->
+      <tr>
+      <td><input id="vanilla" type="radio" name="flavor1" value="">
+        <label for="vanilla"><img src="ice-cream.jpg" alt=""></label></td>
+
+      <td><input id="chocolate" type="radio" name="flavor1" value="">
+        <label for="chocolate"><img src="190328-chocolate-ice-cream-008-1553897042.jpg" alt=""></label>
+        </td>
+      <td><input id="mintchocolatechip" type="radio" name="flavor1" value="">
+        <label for="mintchocolatechip"><img src="Mint-Chocolate-Chip-Ice-Cream-Featured1.jpg" alt=""></label>
+        </td>
+      <td><input id="cookiedough" type="radio" name="flavor1" value="">
+        <label for="cookiedough"><img src="hero-sept-2019-chocolatechipcookiedough.jpg" alt=""></label>
+        </td>
+        </tr>
+
+
+      </table>
+
+
+    <br><br>
+    <!-- This h3 corresponds with the h3 css style. Makes the font white and have a
+    pink box around.-->
+    <h3>Now, another ice cream flavor (2nd scoop)</h3>
+    <!-- this table element is used to align the text, and images/inputs. It
+    organizes the data so that it looks more neat.-->
+    <table>
+      <!--The first row of the table is for the descriptor of what each option is.
+      This is necessary because the image was in the content of the label where t
+      he text would usually be.-->
+      <tr>
+        <td>Rocky Road</td>
+        <td>Matcha</td>
+        <td>Strawberry</td>
+        <td>Rainbow Sherbert</td>
+      </tr>
+      <!-- the second row of the table is for the input elements and their labels.
+      the input elements makes the radio options because of the radio attributes.
+      Their ids are so that they can be recognized by the JavaScript-->
+      <tr>
+        <td>
+        <input id="rockyroad" type="radio" name="flavor2" value="">
+        <label for="rockyroad"><img src="5940462bbae8a251753959ad.jpg" alt=""></label>
+        </td>
+        <td>
+        <input id="matcha" type="radio" name="flavor2" value="">
+        <label for="matcha"><img src="images.jpg" alt=""></label>
+        </td>
+        <td>
+        <input id="strawberry" type="radio" name="flavor2" value="">
+        <label for="strawberry"><img src="churn-strawberry-ice-cream-IMG_1276.png" alt=""></label>
+        </td>
+        <td>
+        <input id="rainbowsherbert" type="radio" name="flavor2" value="">
+        <label for="rainbowsherbert"><img src="Rainbow-Sherbert-Scoop-Close-Up.jpg" alt=""></label>
+        </td>
+      </tr>
+
+    </table>
+
+
+    <br><br>
+    <!-- This h3 corresponds with the h3 css style. Makes the font white and have a
+    pink box around.-->
+    <h3>Toppings!</h3>
+    <!-- this table element is used to align the text, and images/inputs. It
+    organizes the data so that it looks more neat.-->
+    <table>
+      <!--The first row of the table is for the descriptor of what each option is.
+      This is necessary because the image was in the content of the label where t
+      he text would usually be.-->
+      <tr>
+        <td>Fruit</td>
+        <td>Hot Fudge</td>
+        <td>Caramel Syrup</td>
+        <td>Sprinkles</td>
+      </tr>
+      <!-- the second row of the table is for the input elements and their labels.
+      the input elements makes the radio options because of the radio attributes.
+      Their ids are so that they can be recognized by the JavaScript-->
+      <tr>
+        <td><input id="fruit" type="checkbox" name="toppings1" value="">
+          <label for="fruit"><img src="aarp-content.brightspotcdn.jpg" alt=""></label>
+        </td>
+
+        <td><input id="hotfudge" type="checkbox" name="toppings2" value="">
+          <label for="hotfudge"><img src="hot-fudge.jpg" alt=""></label>
+        </td>
+
+        <td><input id="caramelsyrup" type="checkbox" name="toppings3" value="">
+          <label for="caramelsyrup"><img src="Homemade_Salted_Caramel_Sauce_FG2-1402190239.jpg" alt=""></label>
+        </td>
+
+        <td><input id="sprinkles" type="checkbox" name="toppings4" value="">
+          <label for="sprinkles"><img src="Sprinkles2.jpg" alt=""></label>
+        </td>
+
+      </tr>
+      <!-- There are four rows in this table so that the data can be formatted
+      in a more accessible way. The third and fourth row are the same elements
+      and basic formatting as the first and second.-->
+      <tr>
+        <td>Whipped Cream</td>
+        <td>Oreos</td>
+        <td>Peanuts</td>
+        <td>Gummy Bears</td>
+      </tr>
+      <tr>
+        <td><input id="whippedcream" type="checkbox" name="toppings5" value="">
+          <label for="whippedcream"><img src="5.jpg" alt=""></label>
+        </td>
+
+        <td><input id="oreos" type="checkbox" name="toppings6" value="">
+          <label for="oreos"><img src="crushed-oreos.webp" alt=""></label>
+        </td>
+
+        <td><input id="peanuts" type="checkbox" name="toppings7" value="">
+          <label for="peanuts"><img src="Crushed-Peanuts-Of-High-Quality-Factory-Supply.jpg" alt=""></label>
+        </td>
+        <td><input id="gummybears" type="checkbox" name="toppings7" value="">
+          <label for="gummybears"><img src="91LWbnw27AL._SL1500_.jpg" alt=""></label>
+        </td>
+      </tr>
+    </table>
+
+  <br><br><br><br>
+    <!-- This h4 corresponds with the h4 css style. It makes the font pink and 20px.-->
+    <h4>All done?</h4>
+
+  <!-- This input is a button which displays "Submit". When clicked, the
+  showInput function occurs. -->
+  <input type="button" value="Submit" onclick="showInput();">
+  <br><br>
+  </form>
+
+  <!--This div displays the age of the user after they click submit. The span id
+ is age so that it's contents become the contents of the final variable.-->
+
+  <div id="results" >
+    <span id="age" class="results"></span>
+  </div>
+
+  </div>
+</center>
+
+
+
+
+
+
+
+  <script language="JavaScript">
+    // When the submit button is clicked, the function showInput occurs. //
+    function showInput() {
+      // the variable b is defined so that it's default is 0//
+      var b = 0;
+
+      // the if statements makes it so that if the radio for the respective inputs are checked, the variable will add the corresponding number to its total value.
+
+      if (document.getElementById('cup').checked) {
+        b = b + 1;
+      }
+      if (document.getElementById('wafflecone').checked) {
+        b = b + 2;
+      }
+      if (document.getElementById('cakecone').checked) {
+        b = b + 3;
+      }
+      if (document.getElementById('sugarcone').checked) {
+        b = b + 4;
+      }
+
+
+
+      if (document.getElementById('vanilla').checked) {
+        b = b + 1;
+      }
+      if (document.getElementById('chocolate').checked) {
+        b = b + 2;
+      }
+      if (document.getElementById('mintchocolatechip').checked) {
+        b = b + 3;
+      }
+      if (document.getElementById('cookiedough').checked) {
+        b = b + 4;
+      }
+
+
+
+
+      if (document.getElementById('rockyroad').checked) {
+        b = b + 1;
+      }
+      if (document.getElementById('matcha').checked) {
+        b = b + 2;
+      }
+      if (document.getElementById('strawberry').checked) {
+        b = b + 3;
+      }
+      if (document.getElementById('rainbowsherbert').checked) {
+        b = b + 4;
+      }
+
+
+
+
+      if (document.getElementById('fruit').checked) {
+        b = b + 1;
+      }
+      if (document.getElementById('hotfudge').checked) {
+        b = b + 2;
+      }
+      if (document.getElementById('caramelsyrup').checked) {
+        b = b + 3;
+      }
+      if (document.getElementById('sprinkles').checked) {
+        b = b + 4;
+      }
+      if (document.getElementById('whippedcream').checked) {
+        b = b + 5;
+      }
+      if (document.getElementById('oreos').checked) {
+        b = b + 6;
+      }
+      if (document.getElementById('peanuts').checked) {
+        b = b + 7;
+      }
+      if (document.getElementById('gummybears').checked) {
+        b = b + 8;
+      }
+
+      // this defines the final variable so that it is set to 0 by default
+      var final = "0";
+
+
+      // the following if and else if statements make the final variable equal to different statements according to the value of var b.
+      if (b < 5) {
+        final = "You are 56 years old!";
+      }
+
+      else if (b < 9) {
+        final = "You are 37 years old!";
+      }
+
+      else if (b < 14) {
+        final = "You are 14 years old!";
+      }
+
+      else if (b < 17) {
+        final = "You are 25 years old!";
+      }
+
+      else if (b < 22) {
+        final = "You are 15 years old!";
+      }
+
+      else if (b < 27) {
+        final = "You are 12 years old!";
+      }
+
+      else if (b < 32) {
+        final = "You are 2 years old!";
+      }
+
+      else if (b > 31) {
+        final = "You are 56 years old!";
+      }
+// the final variable's value is copy and pasted into the results span because of the getElementById('age').
+      document.getElementById('age').innerHTML = final;
+  }
+
+
+  </script>
+
+  </body>
+</html>

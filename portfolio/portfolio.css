@@ -1,0 +1,71 @@
+
+
+h1 {
+  float: center;
+  animation-name: test;
+  position: relative;
+  padding: 20px;
+  display: block;
+  font-size: 30px;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+h1:hover {
+  color: red;
+}
+
+@keyframes test {
+  0% {font-size: 40px;}
+  50% {font-size: 50px;}
+  100% {font-size: 40px;}
+}
+
+
+body {
+  background-color: white;
+  font-family: system-ui;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+img {
+  float: right;
+}
+
+div {
+  margin: 50px;
+}
+
+
+div.blue {
+  background-color: #CDEEFF;
+  padding: 30px;
+
+}
+
+div.yellow{
+  background-color: #FEF39F;
+  padding: 30px;
+}
+
+div.pink{
+  background-color: #FBD9FF;
+  padding: 30px;
+}
+
+div.purple {
+  background-color: #CDCDFF;
+  padding: 30px;
+}
+
+div.green {
+  background-color: #D7F7A4;
+  padding: 30px;
+}
+
+div.orange {
+  background-color: #FED19F;
+  padding: 30px;
+}

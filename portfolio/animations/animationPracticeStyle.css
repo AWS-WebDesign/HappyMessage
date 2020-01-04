@@ -1,0 +1,28 @@
+
+div {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  padding: 50px;
+  display: block;
+  background-image: url(https://data.whicdn.com/images/324537722/original.jpg?t=1546203273);
+  font-size: 50px;
+  animation-duration: 6s;
+  animation-name: example2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  transition: background-image 2s;
+
+
+}
+
+div:hover {
+  background-image: url(https://cdn130.picsart.com/299433086270201.jpg?r1024x1024);
+}
+
+@keyframes example2 {
+  0% {background-color: #A3E4B4; left: 0px; top: 0px;}
+  50% {background-color: #F3E978; left: 400px; top: 0px;}
+  100% {background-color: #7DCFEE; left: 0px; top: 0px;}
+}
