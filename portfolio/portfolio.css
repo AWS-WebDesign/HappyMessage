@@ -1,10 +1,31 @@
+.topnav {
+  overflow: hidden;
+  background-color:  #E3E3E3 ;
+}
 
+/* This is the div class for the navigation bar text in all of the pages. It is white. */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+/* This div controls the hover capabilities of the navigation bar and what the
+ animation is when the mouse hovers on the box. */
+.topnav a:hover {
+  background-color:#CCCCCC;
+  color: black;
+}
 
 h1 {
   float: center;
   animation-name: test;
   position: relative;
   padding: 20px;
+  height: 80px;
+  width: 800px;
   display: block;
   font-size: 30px;
   animation-duration: 10s;
@@ -22,16 +43,48 @@ h1:hover {
   100% {font-size: 40px;}
 }
 
+p {
+  padding:5px;
+}
 
 body {
   background-color: white;
   font-family: system-ui;
-  margin-left: 125px;
-  margin-right: 125px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
 }
 
 img {
   float: right;
+}
+
+.blue:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
+}
+
+.pink:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
+}
+
+.green:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
+}
+
+.yellow:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
+}
+
+.orange:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
+}
+
+.purple:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
+}
+
+.pink:hover{
+box-shadow: inset 0 0 0 5px #CCCCCC;
 }
 
 div {
