@@ -1,52 +1,53 @@
+/* This is the div class for the navigation bar background box. It is pastel yellow */
 .topnav {
   overflow: hidden;
-  background-color:  #E3E3E3 ;
+  background-color:  #FEF39F ;
 }
 
-/* This is the div class for the navigation bar text in all of the pages. It is white. */
+/* This is the div class for the text in the navigation bar. It makes it black, padded,
+and not underlined.*/
 .topnav a {
   float: left;
-  display: block;
   color: black;
   text-align: center;
   padding: 10px 15px;
+  text-decoration: none;
 }
 
 /* This div controls the hover capabilities of the navigation bar and what the
- animation is when the mouse hovers on the box. */
+ animation is when the mouse hovers on the box. When hovered over, the background turns grey */
 .topnav a:hover {
   background-color:#CCCCCC;
-  color: black;
 }
 
+/* makes the header sizing, as well as the animation last 12s, repeat forever, and pacing. */
 h1 {
-  float: center;
   animation-name: test;
-  position: relative;
   padding: 20px;
   height: 80px;
   width: 800px;
   display: block;
-  font-size: 30px;
-  animation-duration: 10s;
+  font-size: 55px;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
 }
 
-h1:hover {
-  color: red;
-}
-
+/*this dictates what each keyframe of the animation looks like. for each keyframe,
+the text is a different color of the rainbow.*/
 @keyframes test {
-  0% {font-size: 40px;}
-  50% {font-size: 50px;}
-  100% {font-size: 40px;}
+  0% {color: black;}
+  10% {color: #FFBAE2;}
+  25% {color: #FACF98;}
+  40% {color: #FAF298;}
+  55% {color: #BAFA98;}
+  70% {color: #98D2FA}
+  85% {color: #D5B8FA}
+  100% {color: black;}
 }
 
-p {
-  padding:5px;
-}
-
+/* make the body element have a white background,
+systme-ui font, and gives a margin and font size.*/
 body {
   background-color: white;
   font-family: system-ui;
@@ -55,69 +56,64 @@ body {
   font-size: 16px;
 }
 
+/* makes all the images shift to the right*/
 img {
   float: right;
 }
 
-.blue:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
+/*makes the introduction text larger than the rest*/
+div.intro {
+  font-size: 24px;
 }
 
-.pink:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
+
+/*makes a yellow border of the webpage divs each time they are hovered upon.*/
+div.blue:hover {
+  border: 4px solid yellow;
+}
+div.pink:hover {
+  border: 4px solid yellow;
+}
+div.green:hover {
+  border: 4px solid yellow;
+}
+div.yellow:hover {
+  border: 4px solid yellow;
+}
+div.orange:hover {
+  border: 4px solid yellow;
+}
+div.purple:hover {
+  border: 4px solid yellow;
 }
 
-.green:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
-}
 
-.yellow:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
-}
-
-.orange:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
-}
-
-.purple:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
-}
-
-.pink:hover{
-box-shadow: inset 0 0 0 5px #CCCCCC;
-}
-
+/*margin for each div so it doesn't look to cramped*/
 div {
-  margin: 50px;
+  margin: 70px;
 }
 
-
+/*assigns a different color of the rainbow to each div, and padding on the sides.*/
 div.blue {
   background-color: #CDEEFF;
   padding: 30px;
-
 }
-
 div.yellow{
   background-color: #FEF39F;
   padding: 30px;
 }
-
 div.pink{
-  background-color: #FBD9FF;
+  background-color: #FFD4ED;
   padding: 30px;
 }
-
 div.purple {
-  background-color: #CDCDFF;
+  background-color: #E9D4FF;
   padding: 30px;
 }
-
 div.green {
   background-color: #D7F7A4;
   padding: 30px;
 }
-
 div.orange {
   background-color: #FED19F;
   padding: 30px;

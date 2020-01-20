@@ -2,15 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+      <!-- This title element controls the text displayed in the tab on the web browser. -->
     <title>Portfolio</title>
+    <!-- This link element links this html file to my css file so that it can
+    use the styles from the css file. -->
     <link href="portfolio.css" type="text/css" rel="stylesheet">
   </head>
-
+  <!-- This body has a corresponding style in the css file which makes a white background,
+  systme-ui font, and gives a margin and font size.-->
   <body>
+    <!--centers the webpage header-->
     <center>
+    <!--large, bolded header that has a style which allows for positioning, size and an animation.
+    The animation is supposed to make the text start out black, and then animate to different shades of a pastel rainbow.-->
     <h1>Sasha's Web Design Portfolio</h1>
     </center>
 
+    <!-- This is the navigation bar which links to different parts of the webpage using id tags. It
+    contains hover mechanisms, and other basic style features like system-ui
+    font, font color, and background yellow color. When hovered upon, the background
+    turns from yellow to grey.-->
     <div class="topnav">
       <a href="#recurringdream">Recurring Dream</a>
       <a href="#animalwikipage">Animal Wiki Page</a>
@@ -21,20 +32,28 @@
       <a href="#dd">Digital Divide</a>
     </div>
 
-
+  <!-- This is the blurb for what this website is about. Using the class "intro,
+  the div is assigned to a style which makes the font larger.-->
+  <div class="intro">
     <p>Welcome to Sasha's 2019-2020 Web Design portfolio! Arranged in
-    chronological order, below are all the webpage projects she's created in the
-    past semester. Click on the images to explore the webpages. At the bottom of
-    each website's hompage, there is an orange home icon to take you back to this
-    main portfolio site.</p>
+  chronological order, below are all the webpage projects she's created in the
+  past semester. Click on the images to explore the webpages. At the bottom of
+  each website's hompage, there is an orange home icon to take you back to this
+  main portfolio site.</p>
+  </div>
 
+    <!--The div class blue corresponds to a css style which creates a light blue box around the
+    text and image. There is also a hover mechanism which creates a yellow border when the div is hovered upon.
+    The id tag allows the nav bar to link to this section of the webpage.-->
     <div class="blue" id="recurringdream">
+        <!--The anchor links to the recurringDream webpage. Its content is a screenshot of
+        the webpage. All the images float left and have an assigned size.-->
         <a href="recurringDream.html">
-
             <img src="Screen Shot 2020-01-03 at 10.42.59 PM.png" height="200" width="300" alt="">
-    
         </a>
+        <!--A smaller, bolded sub header-->
         <h3>Recurring Dream</h3>
+        <!--Description about the webpage.-->
         <p>My first webpage! The recurring dream was the first project I did this year.
         While its content is quite rudimentary, it shows the progress of my knowledge
         and skills surrounding web design. With this project, I learned basic HTML structure,
@@ -43,6 +62,9 @@
         <p>Date made: 9/6/19</p>
     </div>
 
+
+    <!--the divs below all have the same structure as the blue one above. They correspond to respective
+    css styles which make their respective color backgrounds. they also have respective links to each webpage.-->
 
     <div class="pink" id="animalwikipage">
         <a href="AnimalWikiPage.html">
